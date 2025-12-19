@@ -5,11 +5,11 @@ export default function Options({ options, setOption, characterScores, setCharac
                 <button onClick={() => {
                     setOption(index);
                     let scores = { ...characterScores };
-                    for (let character of option.characters) {
+                    for (let character in option.characters) {
                         if (scores[character]) {
-                            scores[character]++;
+                            scores[character] += option.characters[character];
                         } else {
-                            scores[character] = 1;
+                            scores[character] = option.characters[character];
                         }
                     }
                     setCharacterScores(scores);

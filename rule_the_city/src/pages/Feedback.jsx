@@ -1,10 +1,13 @@
-export default function Feedback({ text, setOption, question, setQuestion }) {
+export default function Feedback({ text, setOption, questionIndex, setQuestionIndex, setPage }) {
     return (
         <div>
             {text}
             <button onClick={() => {
+                if (questionIndex === 1) { 
+                    setPage("result")
+                }
                 setOption(-1);
-                setQuestion(question + 1);
+                setQuestionIndex(questionIndex + 1);
             }}>Nästa</button>
         </div>
     );

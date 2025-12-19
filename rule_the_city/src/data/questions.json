@@ -5,22 +5,40 @@
       {
         "text": "Inför tydligare ordning och konsekvenser. Mobiler samlas in, sena ankomster följs upp direkt och vuxna syns oftare i korridorerna. Skoldagen får tydligare ramar och många elever beskriver en oväntad lättnad i att veta exakt vad som gäller – även om vissa snabbt blir mycket skickliga på att tänja på definitionen av “i tid”.",
         "feedback": "Studieron ökar, men klimatet blir också stramare, och inte alla trivs lika bra i en skola där regler märks mer än relationer.",
-        "characters": [
-          "spegelbäraren",
-          "arkivarien"
-        ]
+        "characters": {
+          "Styraren": 2,
+          "Arkivarien": 1,
+          "Maskmakaren": 1,
+          "Narrstrategen": 1
+        }
       },
       {
         "text": "Bygg ut elevhälsa och trygghetsstöd. Fler kuratorer, trygghetsteam och tid för samtal gör att konflikter fångas upp tidigt. Skolan får ett mjukare tempo och fler elever orkar vara kvar hela dagen – och någon konstaterar att det numera finns fler vuxna att prata med än grupprum att sitta i.",
-        "feedback": "Samtidigt kräver det fingertoppskänsla att inte låta omsorgen helt ta över schemat, och undervisningen får ibland kämpa för sitt utrymme."
+        "feedback": "Samtidigt kräver det fingertoppskänsla att inte låta omsorgen helt ta över schemat, och undervisningen får ibland kämpa för sitt utrymme.",
+        "characters": {
+          "Spegelbäraren": 2,
+          "Bäraren": 2,
+          "Maskmakaren": 1
+        }
       },
       {
         "text": "Satsa hårt på vissa skolor och klasser. Mindre grupper, fler vuxna och riktade resurser sätts in i ett begränsat antal skolor och klasser. Där märks förändringen direkt: fler lektioner som hålls hela vägen, färre avbrott och vuxna som faktiskt hinner följa upp samma elev flera dagar i rad.",
-        "feedback": "På andra skolor börjar jämförelserna ta form i personalrummen. Rektorer samlar exempel, lärare fyller i avvikelser och någon säger halvt på skämt: “Vi kanske också borde se lite sämre ut i statistiken.” Fokus flyttas långsamt från undervisning till att visa att man är i behov av nästa satsning."
+        "feedback": "På andra skolor börjar jämförelserna ta form i personalrummen. Rektorer samlar exempel, lärare fyller i avvikelser och någon säger halvt på skämt: “Vi kanske också borde se lite sämre ut i statistiken.” Fokus flyttas långsamt från undervisning till att visa att man är i behov av nästa satsning.",
+        "characters": {
+          "Maskmakaren": 2,
+          "Arkivarien": 1,
+          "Narrstrategen": 1
+        }
       },
       {
         "text": "Rensa bland projekt och fokusera på undervisning. Ni stoppar nya satsningar, kortar mötestiden och plockar bort parallella projekt. Lärarna får fler hela lektioner utan avbrott, hinner rätta färdigt och går hem utan att ligga efter i tre olika utvecklingsspår samtidigt.",
-        "feedback": "Men när en lärare ser att något inte fungerar – en klass som tappar greppet, en elevgrupp som behöver ett nytt arbetssätt – finns inget utrymme att testa något annat. Svaret blir ofta: “Det där låter rimligt, men just nu kör vi på det vi har.” För läraren innebär det stabilitet, men också maktlöshet. För eleverna betyder det att undervisningen fortsätter som vanligt, även när alla i rummet märker att den inte riktigt når fram."
+        "feedback": "Men när en lärare ser att något inte fungerar – en klass som tappar greppet, en elevgrupp som behöver ett nytt arbetssätt – finns inget utrymme att testa något annat. Svaret blir ofta: “Det där låter rimligt, men just nu kör vi på det vi har.” För läraren innebär det stabilitet, men också maktlöshet. För eleverna betyder det att undervisningen fortsätter som vanligt, även när alla i rummet märker att den inte riktigt når fram.",
+        "characters": {
+          "Arkivarien": 2,
+          "Maskmakaren": 1,
+          "Narrstrategen": 1,
+          "Styraren": 1
+        }
       }
     ]
   },
@@ -30,10 +48,30 @@
       {
         "text": "Gör vården snabb och konsekvent. Ni standardiserar besöken: kortare tider, tydliga ramar och snabba beslut. Fler patienter kommer in, får besked och går vidare – och systemet slutar vara konstant överfullt.",
         "feedback": "Men det som inte passar i mallen får svårt att ta plats. Patienter med diffusa symptom skickas hem flera gånger, tills någon till slut kommer tillbaka betydligt sjukare än första gången. Kärna: Effektivitet före nyanser. Risk: Allvarliga tillstånd som inte är tydliga från start missas.",
-        "characters": [
-          "maskmakaren",
-          "spegelbäraren"
-        ]
+        "characters": {
+          "Arkivarien": 2,
+          "Maskmakaren": 1,
+          "Narrstrategen": 1
+        }
+      },
+      {
+        "text": "Gör vården relationell och långsiktig. Ni bygger vården kring kontinuitet: samma läkare, längre samtal och tid att se hela människan. För många patienter blir vården trygg och begriplig – någon minns, följer upp och ser mönster över tid.",
+        "feedback": "Men systemet rör sig långsamt. För den som söker vård för något nytt kan det ta veckor att ens få en första tid, och oro får ofta leva längre än nödvändigt. Kärna: Trygghet före tempo. Risk: Fördröjd hjälp vid nya eller snabbt uppkomna problem.",
+        "characters": {
+          "Spegelbäraren": 2,
+          "Bäraren": 2,
+          "Maskmakaren": 1
+        }
+      },
+      {
+        "text": "Flytta ansvar från vården till individen. Ni satsar på egenvård, digital rådgivning och tydliga riktlinjer för när man ska söka vård. Många får snabb hjälp via appar, checklistor och råd – och lär sig hantera enklare besvär själva.",
+        "feedback": "Men gränsen mellan “det här klarar du själv” och “det här borde någon titta på” blir svår att avgöra. Vissa väntar för länge och söker hjälp för sent – inte för att vården är stängd, utan för att ansvaret har flyttats över till dem själva. Kärna: Självständighet före professionell bedömning. Risk: Allvarliga problem upptäcks först när det inte längre går att lösa själv.",
+        "characters": {
+          "Narrstrategen": 2,
+          "Brännaren": 1,
+          "Maskmakaren": 1,
+          "Arkivarien": 1
+        }
       }
     ]
   }
