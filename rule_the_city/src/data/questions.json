@@ -1,10 +1,13 @@
 [
   {
-    "scenario": "Resultaten i stadens högstadieskolor har börjat spreta. Lärarna beskriver en vardag där de både ska undervisa, lugna, dokumentera – och ibland bara få dagen att gå ihop. Ni måste välja hur skolan ska kännas att gå till varje dag.",
+    "category": "Utbildning",
+    "scenario": "Resultaten i stadens högstadieskolor har börjat spreta. Lärarna beskriver en vardag där de både ska undervisa, lugna, dokumentera - och ibland bara få dagen att gå ihop. Ni måste välja hur skolan ska kännas att gå till varje dag.",
     "options": [
       {
-        "text": "Inför tydligare ordning och konsekvenser. Mobiler samlas in, sena ankomster följs upp direkt och vuxna syns oftare i korridorerna. Skoldagen får tydligare ramar och många elever beskriver en oväntad lättnad i att veta exakt vad som gäller – även om vissa snabbt blir mycket skickliga på att tänja på definitionen av “i tid”.",
+        "button": "Inför tydligare ordning och konsekvenser",
+        "text": "Mobiler samlas in, sena ankomster följs upp direkt och vuxna syns oftare i korridorerna. Skoldagen får tydligare ramar och många elever beskriver en oväntad lättnad i att veta exakt vad som gäller - även om vissa snabbt blir mycket skickliga på att tänja på definitionen av “i tid”.",
         "feedback": "Studieron ökar, men klimatet blir också stramare, och inte alla trivs lika bra i en skola där regler märks mer än relationer.",
+        "image": "education_",
         "characters": {
           "Styraren": 2,
           "Arkivarien": 1,
@@ -13,8 +16,10 @@
         }
       },
       {
-        "text": "Bygg ut elevhälsa och trygghetsstöd. Fler kuratorer, trygghetsteam och tid för samtal gör att konflikter fångas upp tidigt. Skolan får ett mjukare tempo och fler elever orkar vara kvar hela dagen – och någon konstaterar att det numera finns fler vuxna att prata med än grupprum att sitta i.",
+        "button": "Bygg ut elevhälsa och trygghetsstöd",
+        "text": "Fler kuratorer, trygghetsteam och tid för samtal gör att konflikter fångas upp tidigt. Skolan får ett mjukare tempo och fler elever orkar vara kvar hela dagen - och någon konstaterar att det numera finns fler vuxna att prata med än grupprum att sitta i.",
         "feedback": "Samtidigt kräver det fingertoppskänsla att inte låta omsorgen helt ta över schemat, och undervisningen får ibland kämpa för sitt utrymme.",
+        "image": "education_",
         "characters": {
           "Spegelbäraren": 2,
           "Bäraren": 2,
@@ -22,8 +27,10 @@
         }
       },
       {
-        "text": "Satsa hårt på vissa skolor och klasser. Mindre grupper, fler vuxna och riktade resurser sätts in i ett begränsat antal skolor och klasser. Där märks förändringen direkt: fler lektioner som hålls hela vägen, färre avbrott och vuxna som faktiskt hinner följa upp samma elev flera dagar i rad.",
+        "button": "Satsa hårt på vissa skolor och klasser",
+        "text": "Mindre grupper, fler vuxna och riktade resurser sätts in i ett begränsat antal skolor och klasser. Där märks förändringen direkt: fler lektioner som hålls hela vägen, färre avbrott och vuxna som faktiskt hinner följa upp samma elev flera dagar i rad.",
         "feedback": "På andra skolor börjar jämförelserna ta form i personalrummen. Rektorer samlar exempel, lärare fyller i avvikelser och någon säger halvt på skämt: “Vi kanske också borde se lite sämre ut i statistiken.” Fokus flyttas långsamt från undervisning till att visa att man är i behov av nästa satsning.",
+        "image": "education_",
         "characters": {
           "Maskmakaren": 2,
           "Arkivarien": 1,
@@ -31,8 +38,10 @@
         }
       },
       {
-        "text": "Rensa bland projekt och fokusera på undervisning. Ni stoppar nya satsningar, kortar mötestiden och plockar bort parallella projekt. Lärarna får fler hela lektioner utan avbrott, hinner rätta färdigt och går hem utan att ligga efter i tre olika utvecklingsspår samtidigt.",
-        "feedback": "Men när en lärare ser att något inte fungerar – en klass som tappar greppet, en elevgrupp som behöver ett nytt arbetssätt – finns inget utrymme att testa något annat. Svaret blir ofta: “Det där låter rimligt, men just nu kör vi på det vi har.” För läraren innebär det stabilitet, men också maktlöshet. För eleverna betyder det att undervisningen fortsätter som vanligt, även när alla i rummet märker att den inte riktigt når fram.",
+        "button": "Rensa bland projekt och fokusera på undervisning",
+        "text": "Ni stoppar nya satsningar, kortar mötestiden och plockar bort parallella projekt. Lärarna får fler hela lektioner utan avbrott, hinner rätta färdigt och går hem utan att ligga efter i tre olika utvecklingsspår samtidigt.",
+        "feedback": "Men när en lärare ser att något inte fungerar - en klass som tappar greppet, en elevgrupp som behöver ett nytt arbetssätt - finns inget utrymme att testa något annat. Svaret blir ofta: “Det där låter rimligt, men just nu kör vi på det vi har.” För läraren innebär det stabilitet, men också maktlöshet. För eleverna betyder det att undervisningen fortsätter som vanligt, även när alla i rummet märker att den inte riktigt når fram.",
+        "image": "education_",
         "characters": {
           "Arkivarien": 2,
           "Maskmakaren": 1,
@@ -43,11 +52,14 @@
     ]
   },
   {
-    "scenario": "Vårdcentralerna är överbelastade. Alla är inte akut sjuka – men många är oroliga, slitna eller har problem som inte riktigt passar i ett formulär. Ni måste välja vilken sorts vård vardagen ska präglas av.",
+    "category": "Vård",
+    "scenario": "Vårdcentralerna är överbelastade. Alla är inte akut sjuka - men många är oroliga, slitna eller har problem som inte riktigt passar i ett formulär. Ni måste välja vilken sorts vård vardagen ska präglas av.",
     "options": [
       {
-        "text": "Gör vården snabb och konsekvent. Ni standardiserar besöken: kortare tider, tydliga ramar och snabba beslut. Fler patienter kommer in, får besked och går vidare – och systemet slutar vara konstant överfullt.",
+        "button": "Gör vården snabb och konsekvent",
+        "text": "Ni standardiserar besöken: kortare tider, tydliga ramar och snabba beslut. Fler patienter kommer in, får besked och går vidare - och systemet slutar vara konstant överfullt.",
         "feedback": "Men det som inte passar i mallen får svårt att ta plats. Patienter med diffusa symptom skickas hem flera gånger, tills någon till slut kommer tillbaka betydligt sjukare än första gången. Kärna: Effektivitet före nyanser. Risk: Allvarliga tillstånd som inte är tydliga från start missas.",
+        "image": "health_",
         "characters": {
           "Arkivarien": 2,
           "Maskmakaren": 1,
@@ -55,8 +67,10 @@
         }
       },
       {
-        "text": "Gör vården relationell och långsiktig. Ni bygger vården kring kontinuitet: samma läkare, längre samtal och tid att se hela människan. För många patienter blir vården trygg och begriplig – någon minns, följer upp och ser mönster över tid.",
+        "button": "Gör vården relationell och långsiktig",
+        "text": "Ni bygger vården kring kontinuitet: samma läkare, längre samtal och tid att se hela människan. För många patienter blir vården trygg och begriplig - någon minns, följer upp och ser mönster över tid.",
         "feedback": "Men systemet rör sig långsamt. För den som söker vård för något nytt kan det ta veckor att ens få en första tid, och oro får ofta leva längre än nödvändigt. Kärna: Trygghet före tempo. Risk: Fördröjd hjälp vid nya eller snabbt uppkomna problem.",
+        "image": "health_",
         "characters": {
           "Spegelbäraren": 2,
           "Bäraren": 2,
@@ -64,8 +78,10 @@
         }
       },
       {
-        "text": "Flytta ansvar från vården till individen. Ni satsar på egenvård, digital rådgivning och tydliga riktlinjer för när man ska söka vård. Många får snabb hjälp via appar, checklistor och råd – och lär sig hantera enklare besvär själva.",
-        "feedback": "Men gränsen mellan “det här klarar du själv” och “det här borde någon titta på” blir svår att avgöra. Vissa väntar för länge och söker hjälp för sent – inte för att vården är stängd, utan för att ansvaret har flyttats över till dem själva. Kärna: Självständighet före professionell bedömning. Risk: Allvarliga problem upptäcks först när det inte längre går att lösa själv.",
+        "button": "Flytta ansvar från vården till individen",
+        "text": "Ni satsar på egenvård, digital rådgivning och tydliga riktlinjer för när man ska söka vård. Många får snabb hjälp via appar, checklistor och råd - och lär sig hantera enklare besvär själva.",
+        "feedback": "Men gränsen mellan “det här klarar du själv” och “det här borde någon titta på” blir svår att avgöra. Vissa väntar för länge och söker hjälp för sent - inte för att vården är stängd, utan för att ansvaret har flyttats över till dem själva. Kärna: Självständighet före professionell bedömning. Risk: Allvarliga problem upptäcks först när det inte längre går att lösa själv.",
+        "image": "health_",
         "characters": {
           "Narrstrategen": 2,
           "Brännaren": 1,
@@ -76,11 +92,14 @@
     ]
   },
   {
-    "scenario": "En bro används av tusentals varje dag. Den är inte akut farlig – men tillräckligt sliten för att ingen riktigt slappnar av när en tung buss passerar. Ni måste välja hur staden ska leva med bron.",
+    "category": "Infrastruktur",
+    "scenario": "En bro används av tusentals varje dag. Den är inte akut farlig - men tillräckligt sliten för att ingen riktigt slappnar av när en tung buss passerar. Ni måste välja hur staden ska leva med bron.",
     "options": [
       {
-        "text": "Stäng bron helt i ett svep. Avspärrningar, byggbodar, nya rutiner. Under tiden hinner folk byta favoritomväg, byta jobb och börja säga ”innan bron” som ett tidsbegrepp. När bron öppnar igen är den trygg, modern och framtidssäkrad – men vardagen har fått ett nytt kartblad.",
-        "feedback": "Omvägar och köer gör vardagen seg – men när bron öppnar igen försvinner den där lilla spänningen i kroppen varje gång en tung buss dundrar över.",
+        "button": "Stäng bron helt i ett svep",
+        "text": "Avspärrningar, byggbodar, nya rutiner. Under tiden hinner folk byta favoritomväg, byta jobb och börja säga ”innan bron” som ett tidsbegrepp. När bron öppnar igen är den trygg, modern och framtidssäkrad - men vardagen har fått ett nytt kartblad.",
+        "feedback": "Omvägar och köer gör vardagen seg - men när bron öppnar igen försvinner den där lilla spänningen i kroppen varje gång en tung buss dundrar över.",
+        "image": "bridge_closed.png",
         "characters": {
           "Styraren": 2,
           "Arkivarien": 2,
@@ -90,8 +109,10 @@
         }
       },
       {
-        "text": "Gör bron så osynlig som möjligt. Små reparationer sker nattetid. Trafiken flyter, rutinerna består. Bron blir som ett kommunalt husdjur: ständigt ompysslad, aldrig riktigt frisk.",
-        "feedback": "Allt fortsätter nästan som vanligt – men varje tung lastbil får folk att kasta en snabb blick mot brofästet och undra hur många ”småfix” som egentligen behövs innan det blir en stor sak.",
+        "button": "Gör bron så osynlig som möjligt",
+        "text": "Små reparationer sker nattetid. Trafiken flyter, rutinerna består. Bron blir som ett kommunalt husdjur: ständigt ompysslad, aldrig riktigt frisk.",
+        "feedback": "Allt fortsätter nästan som vanligt - men varje tung lastbil får folk att kasta en snabb blick mot brofästet och undra hur många ”småfix” som egentligen behövs innan det blir en stor sak.",
+        "image": "bridge_halfclosed.png",
         "characters": {
           "Bäraren": 2,
           "Maskmakaren": 2,
@@ -101,8 +122,10 @@
         }
       },
       {
-        "text": "Gör bron till ett gemensamt stadsprojekt. Avspärrningar flyttas stegvis, skyltar förklarar vad som händer och möten hålls. Folk klagar – men följer också processen, diskuterar den och känner sig delaktiga. Bron är aldrig helt stängd, men heller aldrig riktigt klar.",
-        "feedback": "Fler känner sig inkluderade och förstår varför det tar tid – men bygget blir ett ständigt pågående samtalsämne och alla får öva på att leva i ”nästan klart”.",
+        "button": "Gör bron till ett gemensamt stadsprojekt",
+        "text": "Avspärrningar flyttas stegvis, skyltar förklarar vad som händer och möten hålls. Folk klagar - men följer också processen, diskuterar den och känner sig delaktiga. Bron är aldrig helt stängd, men heller aldrig riktigt klar.",
+        "feedback": "Fler känner sig inkluderade och förstår varför det tar tid - men bygget blir ett ständigt pågående samtalsämne och alla får öva på att leva i ”nästan klart”.",
+        "image": "bridge_talk.png",
         "characters": {
           "Maskmakaren": 2,
           "Spegelbäraren": 2,
@@ -112,8 +135,10 @@
         }
       },
       {
-        "text": "Vänta tills mätningarna säger stopp. Sensorer följer sprickor, vibrationer och belastning. Så länge siffrorna är gröna händer inget – tills staden en morgon vaknar till beskedet: ”Bron är stängd från och med nu.”",
-        "feedback": "Det känns rationellt och datadrivet – tills stängningen kommer över en natt och alla måste improvisera nya rutiner på studs, som om bron aldrig varit en självklar del av staden.",
+        "button": "Vänta tills mätningarna säger stopp",
+        "text": "Sensorer följer sprickor, vibrationer och belastning. Så länge siffrorna är gröna händer inget - tills staden en morgon vaknar till beskedet: ”Bron är stängd från och med nu.”",
+        "feedback": "Det känns rationellt och datadrivet - tills stängningen kommer över en natt och alla måste improvisera nya rutiner på studs, som om bron aldrig varit en självklar del av staden.",
+        "image": "bridge_crash.png",
         "characters": {
           "Arkivarien": 2,
           "Narrstrategen": 2,
@@ -125,11 +150,14 @@
     ]
   },
   {
-    "scenario": "Staden måste minska sina utsläpp snabbt – inte genom visioner, utan genom beslut som märks i vardagen redan nästa vinter. Ni måste välja hur klimatomställningen ska kännas att leva med.",
+    "category": "Klimat",
+    "scenario": "Staden måste minska sina utsläpp snabbt - inte genom visioner, utan genom beslut som märks i vardagen redan nästa vinter. Ni måste välja hur klimatomställningen ska kännas att leva med.",
     "options": [
       {
-        "text": "Inför tvingande energiregler direkt. Ni sänker tillåtna inomhustemperaturer och begränsar uppvärmning i lokaler och flerbostadshus. Utsläppen minskar snabbt och staden utvecklar en ny vardagskunskap: vilka tröjor som funkar på jobbet, vilka mötesrum som kräver extra kaffe – och vilka caféer som ”råkar” vara lite varmare.",
-        "feedback": "Utsläppen går ner snabbt och det märks i varje vecka – men det känns också i kroppen varje kväll, och olika hushåll får olika mycket ”klimatpolitik” i vardagsrummet.",
+        "button": "Inför tvingande energiregler direkt",
+        "text": "Ni sänker tillåtna inomhustemperaturer och begränsar uppvärmning i lokaler och flerbostadshus. Utsläppen minskar snabbt och staden utvecklar en ny vardagskunskap: vilka tröjor som funkar på jobbet, vilka mötesrum som kräver extra kaffe - och vilka caféer som ”råkar” vara lite varmare.",
+        "feedback": "Utsläppen går ner snabbt och det märks i varje vecka - men det känns också i kroppen varje kväll, och olika hushåll får olika mycket ”klimatpolitik” i vardagsrummet.",
+        "image": "climate_sweater.jpg",
         "characters": {
           "Styraren": 2,
           "Brännaren": 2,
@@ -139,8 +167,10 @@
         }
       },
       {
-        "text": "Skydda hushållen – låt omställningen ta tid. Ni subventionerar elräkningar, isolering och värmepumpar för hushåll med små marginaler. Oron sjunker och fler vågar planera vintern utan klump i magen.",
-        "feedback": "Fler får en hanterbar vinter och mindre stress – men utsläppen rör sig långsamt, och klimatmålen börjar kännas som något man pratar om som en stor renovering: viktigt, men inte just nu.",
+        "button": "Skydda hushållen - låt omställningen ta tid",
+        "text": "Ni subventionerar elräkningar, isolering och värmepumpar för hushåll med små marginaler. Oron sjunker och fler vågar planera vintern utan klump i magen.",
+        "feedback": "Fler får en hanterbar vinter och mindre stress - men utsläppen rör sig långsamt, och klimatmålen börjar kännas som något man pratar om som en stor renovering: viktigt, men inte just nu.",
+        "image": "climate_insulation.jpg",
         "characters": {
           "Bäraren": 2,
           "Spegelbäraren": 2,
@@ -150,8 +180,10 @@
         }
       },
       {
-        "text": "Gör klimatomställningen till ett gemensamt stadsprojekt. Ni inför frivilliga energimål och kvartersvisa satsningar. Vissa områden går all in, delar tips, jämför förbrukning och pratar tätningslister på gården. Andra märker knappt att något pågår.",
-        "feedback": "Engagemanget blir äkta där det finns och kan smitta av sig – men stadens kurva blir ojämn, och skillnaden mellan ”klimatkvarter” och ”som vanligt-kvarter” blir plötsligt väldigt synlig.",
+        "button": "Gör klimatomställningen till ett gemensamt stadsprojekt",
+        "text": "Ni inför frivilliga energimål och kvartersvisa satsningar. Vissa områden går all in, delar tips, jämför förbrukning och pratar tätningslister på gården. Andra märker knappt att något pågår.",
+        "feedback": "Engagemanget blir äkta där det finns och kan smitta av sig - men stadens kurva blir ojämn, och skillnaden mellan ”klimatkvarter” och ”som vanligt-kvarter” blir plötsligt väldigt synlig.",
+        "image": "climate_neighborhood.jpg",
         "characters": {
           "Maskmakaren": 2,
           "Spegelbäraren": 2,
@@ -161,8 +193,10 @@
         }
       },
       {
-        "text": "Börja med kommunens egna byggnader. Ni energieffektiviserar skolor, idrottshallar och kontor. Resultaten är tydliga och lätta att visa upp – och någon noterar nöjt att simhallen aldrig varit så behaglig.",
-        "feedback": "Det blir snygga, mätbara resultat i kommunens byggnader – men många väntar fortfarande på när omställningen ska märkas hemma, inte bara i simhallen och på powerpointen.",
+        "button": "Börja med kommunens egna byggnader",
+        "text": "Ni energieffektiviserar skolor, idrottshallar och kontor. Resultaten är tydliga och lätta att visa upp - och någon noterar nöjt att simhallen aldrig varit så behaglig.",
+        "feedback": "Det blir snygga, mätbara resultat i kommunens byggnader - men många väntar fortfarande på när omställningen ska märkas hemma, inte bara i simhallen och på powerpointen.",
+        "image": "climate_offices.jpg",
         "characters": {
           "Arkivarien": 2,
           "Pragmatikern": 2,
@@ -174,11 +208,14 @@
     ]
   },
   {
+    "category": "Brottslighet",
     "scenario": "Otryggheten ökar i vissa områden. Många brott är små, men påverkar vardagen och tilliten: cyklar försvinner, rutor krossas och folk tar omvägar hem på kvällen. Ni måste välja hur trygghet ska byggas i vardagen.",
     "options": [
       {
-        "text": "Öka synlig närvaro. Fler uniformer syns på gator och torg, särskilt kvällar och helger. Samtalen blir kortare men tydligare, och fler känner att någon faktiskt har koll när kiosken stänger.",
-        "feedback": "Fler vågar gå hem utan att ringa någon – men vardagen blir mer bevakad, och folk börjar anpassa sig: prata lägre, byta plats att hänga på och tänka en extra gång innan de gör något som kan tolkas fel.",
+        "button": "Öka synlig närvaro",
+        "text": "Fler uniformer syns på gator och torg, särskilt kvällar och helger. Samtalen blir kortare men tydligare, och fler känner att någon faktiskt har koll när kiosken stänger.",
+        "feedback": "Fler vågar gå hem utan att ringa någon - men vardagen blir mer bevakad, och folk börjar anpassa sig: prata lägre, byta plats att hänga på och tänka en extra gång innan de gör något som kan tolkas fel.",
+        "image": "crime_",
         "characters": {
           "Styraren": 2,
           "Bäraren": 2,
@@ -188,8 +225,10 @@
         }
       },
       {
-        "text": "Bygg relationer långsiktigt. Samma vuxna finns kvar över tid, lär sig namn, rutiner och vilka som alltid sitter längst bak på bussen. Färre ingripanden, fler samtal, mer närvaro som känns mänsklig snarare än kontrollerande.",
-        "feedback": "Man blir igenkänd och sedd på torget – men när något händer kan det kännas som att allt går för långsamt, och oron hinner växa innan effekten syns.",
+        "button": "Bygg relationer långsiktigt",
+        "text": "Samma vuxna finns kvar över tid, lär sig namn, rutiner och vilka som alltid sitter längst bak på bussen. Färre ingripanden, fler samtal, mer närvaro som känns mänsklig snarare än kontrollerande.",
+        "feedback": "Man blir igenkänd och sedd på torget - men när något händer kan det kännas som att allt går för långsamt, och oron hinner växa innan effekten syns.",
+        "image": "crime_",
         "characters": {
           "Bäraren": 2,
           "Spegelbäraren": 2,
@@ -199,8 +238,10 @@
         }
       },
       {
-        "text": "Satsa på miljö och struktur. Belysning förbättras, buskage tas bort och platser byggs om för att kännas öppna. Riskpunkter kartläggs och rutiner sätts. Vissa hörn blir plötsligt trygga – andra märkligt tomma.",
-        "feedback": "Fler tar genvägen genom parken igen – men problemen flyttar ofta två kvarter bort, och en annan plats blir plötsligt den nya ”undvik där”-punkten.",
+        "button": "Satsa på miljö och struktur",
+        "text": "Belysning förbättras, buskage tas bort och platser byggs om för att kännas öppna. Riskpunkter kartläggs och rutiner sätts. Vissa hörn blir plötsligt trygga - andra märkligt tomma.",
+        "feedback": "Fler tar genvägen genom parken igen - men problemen flyttar ofta två kvarter bort, och en annan plats blir plötsligt den nya ”undvik där”-punkten.",
+        "image": "crime_",
         "characters": {
           "Arkivarien": 2,
           "Maskmakaren": 2,
@@ -210,8 +251,10 @@
         }
       },
       {
-        "text": "Fokusera på konsekvens. Snabbare utredningar och tydliga påföljder prioriteras. Reglerna blir förutsägbara och signalen tydlig: det får följder att störa andras vardag.",
-        "feedback": "Det blir tydligt att saker får konsekvenser – men klimatet blir också stramare, och fler håller tillbaka i vardagen av rädsla för att hamna fel i systemet.",
+        "button": "Fokusera på konsekvens",
+        "text": "Snabbare utredningar och tydliga påföljder prioriteras. Reglerna blir förutsägbara och signalen tydlig: det får följder att störa andras vardag.",
+        "feedback": "Det blir tydligt att saker får konsekvenser - men klimatet blir också stramare, och fler håller tillbaka i vardagen av rädsla för att hamna fel i systemet.",
+        "image": "crime_",
         "characters": {
           "Styraren": 2,
           "Arkivarien": 2,
@@ -223,11 +266,14 @@
     ]
   },
   {
+    "category": "Arbetslöshet",
     "scenario": "Trots lediga jobb fastnar människor i arbetslöshet. Många står nära arbetsmarknaden men fastnar i ansökningar, korta vikariat eller svajig hälsa. Ni måste välja hur vägen tillbaka till arbete ska se ut i vardagen.",
     "options": [
       {
-        "text": "Aktivera snabbt. Tydliga krav, korta program och snabba åtgärder. Rutiner kommer tillbaka: tider att passa, uppgifter att bocka av och något att rapportera varje vecka.",
-        "feedback": "Fler kommer igång och får rytm i veckan – men det blir också lätt att hoppa mellan insatser och korta placeringar utan att något riktigt hinner bli stabilt.",
+        "button": "Aktivera snabbt",
+        "text": "Tydliga krav, korta program och snabba åtgärder. Rutiner kommer tillbaka: tider att passa, uppgifter att bocka av och något att rapportera varje vecka.",
+        "feedback": "Fler kommer igång och får rytm i veckan - men det blir också lätt att hoppa mellan insatser och korta placeringar utan att något riktigt hinner bli stabilt.",
+        "image": "unemployment_",
         "characters": {
           "Styraren": 2,
           "Pragmatikern": 2,
@@ -237,8 +283,10 @@
         }
       },
       {
-        "text": "Bygg trygghet först. Ekonomiskt stöd kombineras med lugnare tempo och plan som får ta tid. Stressen sjunker och fler kan börja om utan att paniken ligger först i magen.",
-        "feedback": "Vardagen blir stabilare och mer mänsklig – men månaderna kan också glida förbi, och steget tillbaka kan kännas större ju längre man väntar.",
+        "button": "Bygg trygghet först",
+        "text": "Ekonomiskt stöd kombineras med lugnare tempo och plan som får ta tid. Stressen sjunker och fler kan börja om utan att paniken ligger först i magen.",
+        "feedback": "Vardagen blir stabilare och mer mänsklig - men månaderna kan också glida förbi, och steget tillbaka kan kännas större ju längre man väntar.",
+        "image": "unemployment_",
         "characters": {
           "Bäraren": 2,
           "Spegelbäraren": 2,
@@ -248,8 +296,10 @@
         }
       },
       {
-        "text": "Satsa på matchning. Tid och resurser läggs på att hitta rätt person till rätt arbetsgivare: praktik med mål, handledning och anpassade krav. När det klickar känns det nästan skräddarsytt.",
-        "feedback": "Träffsäkerheten ökar och fler hamnar rätt – men alla kan inte vänta på sin perfekta match, och de som blir kvar i kön känner snabbt att tiden är deras dyraste valuta.",
+        "button": "Satsa på matchning",
+        "text": "Tid och resurser läggs på att hitta rätt person till rätt arbetsgivare: praktik med mål, handledning och anpassade krav. När det klickar känns det nästan skräddarsytt.",
+        "feedback": "Träffsäkerheten ökar och fler hamnar rätt - men alla kan inte vänta på sin perfekta match, och de som blir kvar i kön känner snabbt att tiden är deras dyraste valuta.",
+        "image": "unemployment_",
         "characters": {
           "Maskmakaren": 2,
           "Pragmatikern": 2,
@@ -259,8 +309,10 @@
         }
       },
       {
-        "text": "Lita på individens driv. Färre krav, mer frihet och stöd att forma sin egen väg. Människor uppmuntras att själva välja takt, riktning och typ av arbete.",
-        "feedback": "För vissa blir det en riktig nystart – men för andra blir friheten en ensamhet: dagarna flyter ihop och ingen följer upp förrän det gått väldigt lång tid.",
+        "button": "Lita på individens driv",
+        "text": "Färre krav, mer frihet och stöd att forma sin egen väg. Människor uppmuntras att själva välja takt, riktning och typ av arbete.",
+        "feedback": "För vissa blir det en riktig nystart - men för andra blir friheten en ensamhet: dagarna flyter ihop och ingen följer upp förrän det gått väldigt lång tid.",
+        "image": "unemployment_",
         "characters": {
           "Spegelbäraren": 2,
           "Narrstrategen": 2,
@@ -272,11 +324,14 @@
     ]
   },
   {
-    "scenario": "Säkerhetsläget är osäkert. Hoten är inte alltid synliga, men känns i bakgrunden: cyberattacker, desinformation, elavbrott och frågan om vem som gör vad när något oväntat händer. Ni måste välja hur trygghet ska byggas – även när inget händer.",
+    "category": "Försvar",
+    "scenario": "Säkerhetsläget är osäkert. Hoten är inte alltid synliga, men känns i bakgrunden: cyberattacker, desinformation, elavbrott och frågan om vem som gör vad när något oväntat händer. Ni måste välja hur trygghet ska byggas - även när inget händer.",
     "options": [
       {
-        "text": "Bygg stark militär avskräckning. Investera i förmåga, snabb respons och tydliga signaler. Styrkan ska förebygga konflikt och göra att hot inte ens prövar gränserna.",
-        "feedback": "Det känns tryggare att veta att kapaciteten finns – men hotbilden tar mer plats i vardagssamtal, och nyheter om upprustning gör att världen känns lite närmare och lite hårdare.",
+        "button": "Bygg stark militär avskräckning",
+        "text": "Investera i förmåga, snabb respons och tydliga signaler. Styrkan ska förebygga konflikt och göra att hot inte ens prövar gränserna.",
+        "feedback": "Det känns tryggare att veta att kapaciteten finns - men hotbilden tar mer plats i vardagssamtal, och nyheter om upprustning gör att världen känns lite närmare och lite hårdare.",
+        "image": "defence_military.jpg",
         "characters": {
           "Styraren": 2,
           "Arkivarien": 2,
@@ -286,8 +341,10 @@
         }
       },
       {
-        "text": "Satsa på totalförsvar. Stärk civil beredskap: sjukvård, transporter, matförsörjning och lokala rutiner. Alla förväntas bidra – på något sätt.",
-        "feedback": "Samhället känns robust och fler vet vad de ska göra – men vardagen får fler checklistor, och köksskåpen börjar fyllas av extra vatten och konserver som ständigt påminner om varför.",
+        "button": "Satsa på totalförsvar",
+        "text": "Stärk civil beredskap: sjukvård, transporter, matförsörjning och lokala rutiner. Alla förväntas bidra - på något sätt.",
+        "feedback": "Samhället känns robust och fler vet vad de ska göra - men vardagen får fler checklistor, och köksskåpen börjar fyllas av extra vatten och konserver som ständigt påminner om varför.",
+        "image": "defence_ambulance.jpg",
         "characters": {
           "Bäraren": 2,
           "Maskmakaren": 2,
@@ -297,8 +354,10 @@
         }
       },
       {
-        "text": "Prioritera internationellt samarbete. Bygg allianser, avtal och gemensam säkerhet. Ingen står ensam – så länge alla håller ihop.",
-        "feedback": "Det känns stabilt att vara flera – men när något skakar väntar man också på andras beslut, och handlingsutrymmet hemma kan kännas som att det ligger i någon annans mötesagenda.",
+        "button": "Prioritera internationellt samarbete",
+        "text": "Bygg allianser, avtal och gemensam säkerhet. Ingen står ensam - så länge alla håller ihop.",
+        "feedback": "Det känns stabilt att vara flera - men när något skakar väntar man också på andras beslut, och handlingsutrymmet hemma kan kännas som att det ligger i någon annans mötesagenda.",
+        "image": "defence_alliance.jpg",
         "characters": {
           "Spegelbäraren": 2,
           "Maskmakaren": 2,
@@ -308,8 +367,10 @@
         }
       },
       {
-        "text": "Förbered vardagen för kris. Satsa på information, egenberedskap och lokala övningar. Fler vet var ficklampan är, hur man laddar radion och vem man ska ringa.",
-        "feedback": "Man känner sig mer redo och praktiskt förberedd – men varje stormvarning och driftstörning blir också en påminnelse om hur snabbt vardagen kan rubbas.",
+        "button": "Förbered vardagen för kris",
+        "text": "Satsa på information, egenberedskap och lokala övningar. Fler vet var ficklampan är, hur man laddar radion och vem man ska ringa.",
+        "feedback": "Man känner sig mer redo och praktiskt förberedd - men varje stormvarning och driftstörning blir också en påminnelse om hur snabbt vardagen kan rubbas.",
+        "image": "defence_gear.jpg",
         "characters": {
           "Narrstrategen": 2,
           "Pragmatikern": 2,

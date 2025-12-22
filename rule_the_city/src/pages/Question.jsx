@@ -9,6 +9,7 @@ export default function Question({ characterScores, setCharacterScores, setPage 
 
     return (
         <div>
+            <h1>{questions[currentQuestionIndex].category}</h1>
             <h2>{questions[currentQuestionIndex].scenario}</h2>
             {currentOption < 0 ?
                 <Options
@@ -18,9 +19,11 @@ export default function Question({ characterScores, setCharacterScores, setPage 
                     setCharacterScores={setCharacterScores}
                 ></Options> :
                 <Feedback
-                    text={questions[currentQuestionIndex].options[currentOption].feedback}
+                    feedbackText={questions[currentQuestionIndex].options[currentOption].feedback}
+                    option={questions[currentQuestionIndex].options[currentOption]}
                     setOption={setCurrentOption}
                     questionIndex={currentQuestionIndex}
+                    maxQuestionIndex={questions.length - 1}
                     setQuestionIndex={setCurrentQuestionIndex}
                     setPage={setPage}
                 ></Feedback>
