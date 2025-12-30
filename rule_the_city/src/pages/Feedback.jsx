@@ -39,7 +39,8 @@ export default function Feedback({
 
                     <div className="col-md-6">
                         <Card.Body className="p-4 text-start">
-                            <Card.Text className="fs-5">
+                            <Card.Title className="fs-5 text-center">Konsekvens</Card.Title>
+                            <Card.Text className="fs-6">
                                 {feedbackText.split("\n").map((line, index) => {
                                     if (line.trim() === "") {
                                         return <div key={index} style={{ height: "0.75rem" }} />;
