@@ -39,7 +39,7 @@ export default function Feedback({
 
                     <div className="col-md-6">
                         <Card.Body className="p-4 text-start">
-                            <Card.Title className="fs-5 text-center">Konsekvens</Card.Title>
+                            <Card.Title className="fs-5 text-center" style={{color: "#23a5aaff"}}>Konsekvens</Card.Title>
                             <Card.Text className="fs-6">
                                 {feedbackText.split("\n").map((line, index) => {
                                     if (line.trim() === "") {
@@ -49,7 +49,7 @@ export default function Feedback({
                                         const rest = line.replace("Kärna:", "").trim();
                                         return (
                                             <div key={index}>
-                                                <strong>Kärna:</strong> {rest}
+                                                <strong style={{color: "#23a5aaff"}}>Kärna:</strong> {rest}
                                             </div>
                                         );
                                     }
@@ -57,7 +57,7 @@ export default function Feedback({
                                         const rest = line.replace("Risk:", "").trim();
                                         return (
                                             <div key={index}>
-                                                <strong>Risk:</strong> {rest}
+                                                <strong style={{color: "#23a5aaff"}}>Risk:</strong> {rest}
                                             </div>
                                         );
                                     }
@@ -66,9 +66,9 @@ export default function Feedback({
                             </Card.Text>
 
                             <div className="d-flex justify-content-end mt-3">
-                                <Button variant="info" onClick={handleNext}>
+                                <button className="btn" style={{backgroundColor: "#72cccf"}} onClick={handleNext}>
                                     Nästa
-                                </Button>
+                                </button>
                             </div>
                         </Card.Body>
                     </div>

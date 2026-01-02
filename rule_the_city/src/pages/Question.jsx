@@ -17,7 +17,7 @@ export default function Question({ characterScores, setCharacterScores, setPage 
                 <div className="p-4 rounded-2 border bg-body-tertiary mb-4 border border-secondary">
                     <div className="d-flex justify-content-between align-items-start gap-3">
                         <div>
-                            <h1 className="text-center fs-4 mb-2">
+                            <h1 className="text-center fs-3 mb-2" style={{color: "#33b9bdff"}}>
                                 {q.category}
                                 <img src={import.meta.env.BASE_URL + "icons/" + q.icon} style={{ height: "1em", marginLeft: "8px", marginTop: "-4px" }} />
                             </h1>

@@ -6,7 +6,8 @@ export default function Options({ options, setOption, characterScores, setCharac
                     <div className="card w-100 h-80 border border-secondary-subtle">
                         <div className="card-body">
                             <button
-                                className="btn btn-warning mb-3"
+                                className="btn mb-3"
+                                style={{backgroundColor: "#fcdc4fff"}}
                                 onClick={() => {
                                     setOption(index);
 
